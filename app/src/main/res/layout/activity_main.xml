@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.neoman.tictactoe.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3pt"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:id="@+id/a1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="move" />
+
+        <Button
+            android:id="@+id/a2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="move" />
+
+        <Button
+            android:id="@+id/a3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="move" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3pt"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="move" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="move" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="move" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/c1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="move" />
+
+        <Button
+            android:id="@+id/c2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+
+            android:onClick="move" />
+
+        <Button
+            android:id="@+id/c3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="move" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="newGame"
+            android:text="New Game" />
+    </TableRow>
+</TableLayout>
